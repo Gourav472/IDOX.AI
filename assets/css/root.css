@@ -1,0 +1,279 @@
+:root {
+    /* FONT-SIZE ///////////////////////////////// */
+    --fs-9: 9px;
+    --fs-10: 10px;
+    --fs-12: 12px;
+    --fs-13: 13px;
+    --fs-14: 14px;
+    --fs-15: 15px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-32: 32px;
+    --fs-44: 44px;
+    --fs-48: 48px;
+    /* LINE-HEIGHT ///////////////////////////////// */
+    --lh-13: 13px;
+    --lh-15: 15px;
+    --lh-18: 18px;
+    --lh-19: 19px;
+    --lh-20: 20px;
+    --lh-21: 21px;
+    --lh-22: 22px;
+    --lh-24: 24px;
+    --lh-25: 25px;
+    --lh-27: 27px;
+    --lh-28: 28px;
+    --lh-30: 30px;
+    --lh-38: 38px;
+    --lh-44: 44px;
+    --lh-55: 55px;
+    --lh-60: 60px;
+    /* /FONT-WEIGHT */
+    --fw-3: 300;
+    --fw-4: 400;
+    --fw-5: 500;
+    --fw-6: 600;
+    --fw-7: 700;
+    --fw-8: 800;
+    --fw-9: 900;
+
+    /* COLOR////////////////////////////////////////// */
+    --white: #FBFDFF;
+    --black: #000;
+    --grey: #FBFDFF33;
+    --dark: #020D15;
+    --navbar: #FBFDFF03;
+    --blue: #0069E3;
+    --blue2: #2746ED80;
+    --lightblue: #0389FF;
+    --rgb:rgba(0, 136, 255, 0.58);
+    --blur: #0389FF1F;
+    --blue3:#0389FF;
+    --blur2: #0389FF1F;
+
+   
+
+
+
+
+}
+.blur2{
+    color: var(--blur2);
+}
+.blue3{
+    color: var(--blue3);
+}
+.blur{
+    color: var(--blur);
+}
+.rgb{
+    color: var(--rgb);
+}
+
+.lightblue {
+    color: var(--lightblue);
+}
+
+.blue2 {
+    color: var(--blue2);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.fw-3 {
+    font-weight: var(--fw-3);
+}
+
+.fw-4 {
+    font-weight: var(--fw-4);
+}
+
+.fw-5 {
+    font-weight: var(--fw-5);
+}
+
+.fw-6 {
+    font-weight: var(--fw-6);
+}
+
+.fw-7 {
+    font-weight: var(--fw-7);
+}
+
+.fw-8 {
+    font-weight: var(--fw-8);
+}
+
+.fw-9 {
+    font-weight: var(--fw-9);
+}
+
+.navvar {
+    color: var(--navbar);
+}
+
+.white {
+    color: var(--white);
+}
+
+.black {
+    color: var(--black);
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.dark {
+    color: var(--dark);
+}
+
+.fs-9 {
+    font-size: var(--fs-9);
+}
+
+.fs-10 {
+    font-size: var(--fs-10);
+}
+
+.fs-12 {
+    font-size: var(--fs-12);
+}
+
+.fs-13 {
+    font-size: var(--fs-13);
+}
+
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
+.fs-15 {
+    font-size: var(--fs-15);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-32 {
+    font-size: var(--fs-32);
+}
+
+.fs-44 {
+    font-size: var(--fs-44);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.lh-13 {
+    line-height: var(--lh-13);
+}
+
+.lh-15 {
+    line-height: var(--lh-15);
+}
+
+.lh-18 {
+    line-height: var(--lh-18);
+}
+
+.lh-19 {
+    line-height: var(--lh-19);
+}
+
+.lh-20 {
+    line-height: var(--lh-20);
+}
+
+.lh-21 {
+    line-height: var(--lh-21);
+}
+
+.lh-22 {
+    line-height: var(--lh-22);
+}
+
+.lh-24 {
+    line-height: var(--lh-24);
+}
+
+.lh-25 {
+    line-height: var(--lh-25);
+}
+
+.lh-27 {
+    line-height: var(--lh-27);
+}
+
+.lh-28 {
+    line-height: var(--lh-28);
+}
+
+.lh-30 {
+    line-height: var(--lh-30);
+}
+
+.lh-38 {
+    line-height: var(--lh-38);
+}
+
+.lh-44 {
+    line-height: var(--lh-44);
+}
+
+.lh-55 {
+    line-height: var(--lh-55);
+}
+
+.lh-60 {
+    line-height: var(--lh-60);
+}
+
+@media (max-width:768px) {
+    :root {
+        /* FONT-SIZE ///////////////////////////////// */
+        --fs-9: 9px;
+        --fs-10: 10px;
+        --fs-12: 12px;
+        --fs-13: 13px;
+        --fs-14: 14px;
+        --fs-15: 15px;
+        --fs-16: 16px;
+        --fs-18: 18px;
+        --fs-20: 20px;
+        --fs-32: 24px;
+        --fs-44: 23px;
+        --fs-48: 24px;
+        /* LINE-HEIGHT ///////////////////////////////// */
+        --lh-13: 13px;
+        --lh-15: 15px;
+        --lh-18: 18px;
+        --lh-19: 19px;
+        --lh-20: 20px;
+        --lh-21: 21px;
+        --lh-22: 22px;
+        --lh-24: 24px;
+        --lh-25: 25px;
+        --lh-27: 27px;
+        --lh-28: 28px;
+        --lh-30: 30px;
+        --lh-38: 38px;
+        --lh-44: 44px;
+        --lh-55: 45px;
+        --lh-60: 45px;
+    }
+}
