@@ -48,7 +48,7 @@ $('.responsive_1').slick({
   ]
 });
 $('.responsive_2').slick({
-  dots: false,
+  dots: true,
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1,
