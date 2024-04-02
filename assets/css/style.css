@@ -305,9 +305,10 @@
 
 .sec-5-box {
     max-width: 400px;
-    padding: 13.87px 16px 13.87px 16px;
+    padding: 13.87px 100px 13.87px 16px;
     border-radius: 10px;
     background: var(--blur2);
+    transition: all 300ms linear;
 }
 
 .gap-14 {
@@ -323,6 +324,12 @@
 }
 .max-645{
     max-width: 645px;
+}
+.sec-5-box:hover{
+    box-shadow: 0px 0px 10px 0px var(--white);
+}
+.sec-5-p{
+    padding-bottom: 130px;
 }
 
 
@@ -396,7 +403,13 @@
     .sec-4-box1 {
         padding: 15px 15px 15px 15px;
     }
+    .sec-5-box {
 
+        padding: 13.87px 40px 13.87px 16px;
+    }
+    .sec-5-p{
+        padding-bottom: 50px;
+    }
 
 }
 
