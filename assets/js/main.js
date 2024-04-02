@@ -47,3 +47,49 @@ $('.responsive_1').slick({
     }
   ]
 });
+$('.responsive_2').slick({
+  dots: false,
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  autoplay: false,
+  speed: 900,
+  prevArrow: ".prev-btn",
+  nextArrow: ".next-btn",
+  responsive: [
+    {
+      breakpoint: 1440,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+
+      }
+    }
+  ]
+});
