@@ -54,12 +54,16 @@
     --blur2: #0389FF1F;
     --border: #FFFFFF1A;
     --bg1: #00000054;
+    --border2:#273239;
 
 
 
 
 
 
+}
+.border2{
+    color: var(--border2);
 }
 .black2{
 color: var(--black2);
