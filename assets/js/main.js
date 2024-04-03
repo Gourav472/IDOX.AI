@@ -4,32 +4,32 @@ function openNav() {
   document.querySelector(".menu").classList.toggle("cross")
 }
 $('.responsive_1').slick({
+  arrows: false,
   dots: false,
   infinite: true,
-  slidesToShow: 8,
+  slidesToShow: 4,
   slidesToScroll: 1,
-  arrows: false,
+  variableWidth: true,
+  slidesToShow: 7,
   autoplay: true,
-  speed: 2000,
-  arrows: false,
-  ltr: true,
-  cssEase: "linear",
   autoplaySpeed: 0,
-  variableWidth:true,
+  speed: 1500,
+  pauseOnHover: true,
+  cssEase: 'linear',
 
 
   responsive: [
     {
       breakpoint: 1440,
       settings: {
-        slidesToShow: 8,
+        slidesToShow: 7,
 
       }
     },
     {
       breakpoint: 992,
       settings: {
-        slidesToShow: 8,
+        slidesToShow: 6,
       }
     },
     {
@@ -41,7 +41,7 @@ $('.responsive_1').slick({
     {
       breakpoint: 576,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 2,
 
       }
     }
