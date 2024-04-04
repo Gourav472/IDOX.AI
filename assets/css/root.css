@@ -41,7 +41,7 @@
     /* COLOR////////////////////////////////////////// */
     --white: #FBFDFF;
     --black: #000;
-    --black2:#00000033;
+    --black2: #00000033;
     --grey: #FBFDFF33;
     --dark: #020D15;
     --navbar: #FBFDFF03;
@@ -54,24 +54,37 @@
     --blur2: #0389FF1F;
     --border: #FFFFFF1A;
     --bg1: #00000054;
-    --border2:#273239;
-
+    --border2: #273239;
+    --g-1: rgba(2, 13, 21, 0);
+    --g-2: #020D15;
+    --box:#FBFDFF12;
+    --footer: #021728;
 
 
 
 
 
 }
-.border2{
+.footer-bg{
+    background: var(--footer);
+}
+.box{
+color: var(--box);
+}
+
+.border2 {
     color: var(--border2);
 }
-.black2{
-color: var(--black2);
+
+.black2 {
+    color: var(--black2);
 }
-.bg1{
+
+.bg1 {
     color: var(--bg1);
 }
-.border{
+
+.border {
     color: var(--border);
 }
 
