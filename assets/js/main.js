@@ -55,7 +55,7 @@ $('.responsive_2').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
-  autoplay: false,
+  autoplay: true,
   speed: 900,
   centerMode: true,
   variableWidth: true,
@@ -65,7 +65,7 @@ $('.responsive_2').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
       }
     },
     {
@@ -82,6 +82,7 @@ $('.responsive_2').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
+        dots: false,
       }
     },
     {
@@ -90,6 +91,7 @@ $('.responsive_2').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
+        dots: false,
 
       }
     }

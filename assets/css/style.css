@@ -98,7 +98,7 @@
     background-color: var(--dark);
     background-image: url(../images/header-img.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 65%;
 
 
 }
@@ -788,7 +788,8 @@
 .bg-sec11 {
     background-image: url(../images/sec-11.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .linear-box {
@@ -842,6 +843,7 @@
 
 .translate_up:hover {
     transform: scale(1.2);
+
 }
 
 .pt-19 {
@@ -862,6 +864,8 @@
 
 .foot_hover:hover {
     opacity: 1;
+    color: var(--lightblue);
+
 }
 
 .b_top {
@@ -1197,6 +1201,15 @@
 }
 
 @media (max-width:768px) {
+    .header-bg {
+        background-color: var(--dark);
+        background-image: url(../images/header-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+
     .pb-95 {
         padding-bottom: 50px;
     }
