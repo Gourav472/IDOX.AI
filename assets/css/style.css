@@ -844,6 +844,12 @@
 .pt-103{
     padding-top: 103px;
 }
+.foot_hover{
+    transition: all 300ms linear;
+}
+.foot_hover:hover{
+    opacity: 1;
+}
 
 
 
