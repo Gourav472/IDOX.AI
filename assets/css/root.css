@@ -57,19 +57,26 @@
     --border2: #273239;
     --g-1: rgba(2, 13, 21, 0);
     --g-2: #020D15;
-    --box:#FBFDFF12;
+    --box: #FBFDFF12;
     --footer: #021728;
+    --footer-line: #344553;
 
 
 
 
 
 }
-.footer-bg{
+
+.footer-line {
+    color: var(--footer-line);
+}
+
+.footer-bg {
     background: var(--footer);
 }
-.box{
-color: var(--box);
+
+.box {
+    color: var(--box);
 }
 
 .border2 {

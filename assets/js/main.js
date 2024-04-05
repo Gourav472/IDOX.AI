@@ -18,6 +18,8 @@ $('.responsive_1').slick({
   cssEase: 'linear',
 
 
+
+
   responsive: [
     {
       breakpoint: 1440,
@@ -55,8 +57,8 @@ $('.responsive_2').slick({
   arrows: false,
   autoplay: false,
   speed: 900,
-  prevArrow: ".prev-btn",
-  nextArrow: ".next-btn",
+  centerMode: true,
+  variableWidth: true,
   responsive: [
     {
       breakpoint: 1440,
