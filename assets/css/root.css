@@ -60,11 +60,15 @@
     --box: #FBFDFF12;
     --footer: #021728;
     --footer-line: #344553;
+    --yellow: #ff0;
 
 
 
 
 
+}
+.yellow{
+    color: var(--yellow);
 }
 
 .footer-line {
@@ -294,7 +298,7 @@
         --fs-15: 15px;
         --fs-16: 16px;
         --fs-18: 18px;
-        --fs-20: 20px;
+        --fs-20: 18px;
         --fs-32: 24px;
         --fs-44: 23px;
         --fs-48: 24px;
